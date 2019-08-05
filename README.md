@@ -26,13 +26,26 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a library that uses patterns that will help developers that use it, build small, reusable pieces of UI that can be easily put together to make a large scale application. It creates a virtual DOM to interact with the DOM using 'states' allowing everything to be smoother and more manageable. 
+Today, web applications are huge, complex pieces of software that millions and millions of users interact with simultaneously. React solves the problem of providing a smooth experience for our users, as well as those developing applications.
+
 - [ ] What does it mean to _think_ in react?
+
+Kinda of confused by this question, but to me the way to think when using react is the idea of "seperations of concerns" meaning each piece of code should do one thing, allowing it to be more readable and easier to debug. The second thing is the declrative programming. Basically its a god send and it tells the computer what we want it to do instead of how we want it to do it.
 
 - [ ] Describe state.
 
+Technically, it just means data. But you could look at it like the begging state of being for our code or what the value of the data is. 
+
 - [ ] Describe props.
 
+When we want to pass information held on state inside one component to another component, we pass it as props. 
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+What are “side effects”? A side effect is anything that affects something outside the scope of the function being executed. Fetching data from an API, timers, logging, and manually manipulating the DOM are all examples of side effects. 
+
+ To sync a side effect so it doesn't run an infinite loop we pass in a dependency array as the second argument to the effect hook.
 
 ## Project Set Up
 
